@@ -28,7 +28,7 @@ display(vendas_df.describe())
 produtos = vendas_df['Produto']
 display(produtos)
 
-#pengar uma linha
+#pegar uma linha
 display(vendas_df.loc[1:5])
 
 #pegar linhas que corresponde a uma condição
